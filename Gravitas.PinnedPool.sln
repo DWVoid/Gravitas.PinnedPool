@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gravitas.PinnedPool", "Gravitas.PinnedPool\Gravitas.PinnedPool.csproj", "{289576C8-C306-4185-8A44-5A52E948348E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmark", "Benchmark\Benchmark.csproj", "{48E9D30D-A75B-4B52-8462-3CA5CAC774FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{289576C8-C306-4185-8A44-5A52E948348E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{289576C8-C306-4185-8A44-5A52E948348E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{289576C8-C306-4185-8A44-5A52E948348E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{289576C8-C306-4185-8A44-5A52E948348E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48E9D30D-A75B-4B52-8462-3CA5CAC774FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48E9D30D-A75B-4B52-8462-3CA5CAC774FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48E9D30D-A75B-4B52-8462-3CA5CAC774FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48E9D30D-A75B-4B52-8462-3CA5CAC774FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
