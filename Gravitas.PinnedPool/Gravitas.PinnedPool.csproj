@@ -6,7 +6,7 @@
         <Nullable>enable</Nullable>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <Version>0.0.1</Version>
+        <Version>0.0.2</Version>
         <Title>Gravitas.PinnedPool</Title>
         <Authors>DWVoid</Authors>
         <Description>A copy of System.Buffers.ShareArrayPool modified to provide pinned-arrays</Description>
@@ -17,12 +17,8 @@
         <RepositoryType>git</RepositoryType>
     </PropertyGroup>
 
-    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
-      <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
-    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' " />
 
-    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
-      <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
-    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' " />
 
 </Project>
